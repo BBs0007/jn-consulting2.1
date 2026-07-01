@@ -20,7 +20,7 @@ import {
   Plus,
   Minus,
 } from "lucide-react";
-import logoAsset from "@/assets/jn-logo.png.asset.json";
+const logoAsset = { url: "/jn-logo.png" };
 import heroImg from "@/assets/hero-advisor.jpg";
 
 export const Route = createFileRoute("/")({
